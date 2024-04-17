@@ -1,0 +1,38 @@
+body
+{
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(29,255,206,0.4));
+    background-size: cover;
+}
+.Songs
+{
+    display: inline-grid;
+    grid-template-columns:1500px;
+    grid-template-rows: 400px 400px;
+    row-gap: 20px;
+}
+.Songs-1
+{
+
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.song-image
+{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+audio
+{
+    width: 100%;
+}
+h1
+{
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,44 @@
+.Menu-Songs-Flex
+{
+    display: inline-flex;
+    margin: 20px 20px 20px 20px;
+    flex-direction: row;
+}
+.Menu
+{
+    display: inline-grid;
+    grid-template-rows: 20px 20px 20px 20px 20px 30px 20px 20px 20px 20px 20px 20px 50px;
+    grid-template-columns: 150px;
+    grid-gap: 5px;
+}
+.GRAY
+{
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.Menu-text
+{
+    font-family: Arial;
+    color: rgb(36, 36, 36);
+}
+
+.Playlist
+{
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    border: solid;
+    border-color: rgb(29, 255, 206);
+    color: rgb(29, 255, 206);
+}
+span
+{
+    font-size: 15px;
+}
+.Playlist:hover
+{
+    color: rgb(204, 204, 204);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgb(29, 255, 206,0.5));
+}
